@@ -26,7 +26,7 @@ Target protein senyawa dan gen terkait HCC diinterseksikan melalui analisis diag
  
 ## Gambar 1. Irisan gen target HCC dan target metabolit sekunder
 
-![Gambar 1.](/Gambar 1.png "Gambar 1.")
+![Gambar 1.](/Gambar1.png "Gambar 1.")
 
 #### 2.1.4 Analisis Pengayaan Fungsional
 Enrichment analysis dijalankan melalui platform STRING, mencakup ranah Biological Process pada Gene Ontology (GO), KEGG Pathways, serta Disease-gene Associations (DISEASES). Ambang batas signifikansi ditetapkan pada False Discovery Rate (FDR) < 0,05. Fitur Merge Network pada Cytoscape kemudian menggabungkan seluruh hasil pengayaan ini dengan jaringan senyawa-target dan jaringan PPI ke dalam satu visualisasi terpadu.
@@ -72,22 +72,24 @@ Pemetaan target molekuler mengonfirmasi adanya mekanisme interaksi multi-target 
 Jaringan Protein-Protein Interaction (PPI) yang dibangun untuk mengevaluasi interaksi tingkat protein tervisualisasi dalam bentuk 9 nodes dan 11 edges. Analisis topologi terhadap jaringan ini menetapkan AKT1, JAK2, CTNNB1, dan IL6 sebagai hub genes sentral. Nilai betweenness centrality dan closeness centrality gen-gen tersebut secara signifikan lebih unggul dibandingkan dengan protein lain, yang mengonfirmasi tingginya probabilitas mereka dalam menyebarkan sinyal biologis.
 
 ## Gambar 2. Jaringan Protein-Protein Interaction (PPI) dari 11 gen irisan hasil konstruksi STRING
- 
+
+ ![Gambar 2.](/string.png "Gambar 2.")
 
 Konstruksi jaringan senyawa-target-pathway selanjutnya memvalidasi mekanisme kerja polifarmakologi tersebut. Di antara enam senyawa uji, kuersetin dan kurkumin tampil sebagai metabolit paling dominan dengan jumlah koneksi (degree) tertinggi terhadap berbagai target protein. Jaringan ini turut menegaskan peran AKT1, JAK2, dan CTNNB1 sebagai simpul utama yang menghubungkan metabolit dengan sejumlah jalur sinyal esensial, antara lain PI3K-Akt signaling pathway, intervensi terhadap resistensi EGFR tyrosine kinase inhibitor, dan jalur pos pemeriksaan imun PD-1/PD-L1.
 
 ## Gambar 3. Visualisasi jaringan interaksi senyawa–target–pathway
- 
+
+ ![Gambar .](/target.png "Gambar 3.")
 
 ### 3.2 Signifikansi Fungsional dan Pengayaan Biologis
 Enrichment analysis yang disajikan pada gambar di bawah memperkuat dasar teoretis mekanisme aksi metabolit. Pada ranah Gene Ontology (Biological Process), target molekuler dominan meregulasi kelangsungan proliferasi otot polos serta memediasi respons seluler terhadap sitokin pro-inflamasi kunci, yaitu IL-6. Modulasi ini berperan penting dalam meredam stres inflamasi kronis pada jaringan hepatik.
 
-
-
-
 ## Gambar 4. Hasil enrichment analysis Gene Ontology (Biological Process), KEGG Pathway, dan Disease-gene Associations (DISEASES) terhadap target irisan
- 
 
+ 
+ ![Gambar 4.](/Process.svg "Gambar 4.")
+  ![Gambar 4.](/KEGG.svg "Gambar 4.")
+   ![Gambar 4.](/DISEASES.svg "Gambar 4.")
  
 
  
@@ -100,15 +102,21 @@ Merujuk pada temuan sentralitas AKT1 dalam jaringan PPI serta dominasi konektivi
  
 ## Gambar 5 : Pencarian center box terbaik melalui PrankWeb
 
+ ![Gambar 5.](/centerbox.png "Gambar 5.")
+
 Kalkulasi docking termodinamika ini menghasilkan 20 konformasi interaksi spasial. Berdasarkan parameter afinitas pengikatan, Model 1 mencatat nilai Calculated affinity yang sangat baik, yaitu -4,963 kcal/mol. Nilai negatif yang memadai tersebut merepresentasikan pelepasan energi bebas interaksi yang tinggi, sekaligus mengindikasikan afinitas pengikatan yang stabil secara termodinamika.
 
  
 ## Tabel 2. Hasil Afinitas Molecular Docking
 
+ ![Tabel 2.](/tabel.png "Tabelr 2.")
+
 Secara visual, analisis konformasi geometri mengonfirmasi struktur ligan kurkumin tersuspensi dengan presisi tinggi di dalam celah enzimatik protein AKT1. Penempatan struktural yang akurat ini memvalidasi kemampuan ligan tersebut mengokupasi situs aktif atau situs alosterik enzim. Pemblokiran situs pengikatan molekul biologis pada AKT1 diproyeksikan merepresi kaskade kelangsungan hidup sel melalui jalur PI3K/Akt/mTOR. Pada tingkat atomik, mekanisme represi ini secara rasional berkorelasi langsung dengan kapasitas menghentikan siklus proliferasi tak terkendali sekaligus memulihkan sensitivitas apoptosis pada sel HCC.
 
  
 ## Gambar 6: Visualisasi pose Curcumin di dalam kantong aktif protein AKT1
+
+ ![Gambar 6.](/pose.png "Gambar 6.")
 
 ## IV.	Kesimpulan
 Integrasi pendekatan komputasional network pharmacology dan molecular docking pada riset ini berhasil mengungkap mekanisme polifarmakologi metabolit sekunder bahan alam terhadap mikrolingkungan Hepatocellular Carcinoma (HCC). Temuan utama dari antara lain sebagai berikut:
