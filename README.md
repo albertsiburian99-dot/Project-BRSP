@@ -24,7 +24,9 @@ Data genetik yang berasosiasi dengan patogenesis Hepatocellular Carcinoma (HCC) 
 Target protein senyawa dan gen terkait HCC diinterseksikan melalui analisis diagram Venn untuk mengisolasi target molekuler yang berpotensi relevan. Gen hasil irisan ini menjadi dasar konstruksi jaringan Protein-Protein Interaction (PPI) pada basis data STRING, dengan ambang batas confidence ≥ 0,700. Cytoscape memvisualisasikan topologi jaringan yang terbentuk. Berdasarkan tiga parameter sentralitas, yaitu degree, betweenness centrality, dan closeness centrality, plugin cytoHubba menentukan sepuluh hub genes utama.
 
  
-Gambar 1. Irisan gen target HCC dan target metabolit sekunder
+## Gambar 1. Irisan gen target HCC dan target metabolit sekunder
+
+![Gambar 1.](/Gambar 1. Irisan gen target HCC dan target metabolit sekunder.png "Gambar 1.")
 
 #### 2.1.4 Analisis Pengayaan Fungsional
 Enrichment analysis dijalankan melalui platform STRING, mencakup ranah Biological Process pada Gene Ontology (GO), KEGG Pathways, serta Disease-gene Associations (DISEASES). Ambang batas signifikansi ditetapkan pada False Discovery Rate (FDR) < 0,05. Fitur Merge Network pada Cytoscape kemudian menggabungkan seluruh hasil pengayaan ini dengan jaringan senyawa-target dan jaringan PPI ke dalam satu visualisasi terpadu.
