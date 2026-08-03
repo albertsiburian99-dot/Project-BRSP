@@ -1,5 +1,5 @@
 # Project BRSP: In Silico Drug Discovery
-# Eksplorasi Mekanisme farmakologi Kombinasi Metabolit Bahan Alam Terhadap Hepatocellular Carcinoma: Pendekatan Network Pharmacology dan Molecular Docking
+# Eksplorasi Mekanisme Farmakologi Kombinasi Metabolit Bahan Alam Terhadap Hepatocellular Carcinoma: Pendekatan Network Pharmacology dan Molecular Docking
 
 ## I.	PENDAHULUAN
 
